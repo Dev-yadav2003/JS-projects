@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="footer">
+        <h2>AI Image Generator Tool Javascript</h2>
+        <p>Convert your text into an image within a second using this <br>JavaScript-powered AI Image Generator tool</p>
+        <form class="generate-form">
+            <label for="user-promt"></label> 
+            <input placeholder="Describe what you want to see" type="text" id="user-promt">
+            <div class="controls">
+                <select id="img-quantity">
+                <option value="1">1-image</option>
+                <option value="2">2-image</option>
+                <option value="3">3-image</option>
+                <option value="4">4-image</option>
+                </select>
+                <button class="generate-button">Generate</button>
+            </div>
+        </form>
+    </div> 
+    <div class="generate-result">
+        <div class="card">
+        <img src="https://media.istockphoto.com/id/1371177740/photo/hot-air-balloon-in-the-morning.webp?b=1&s=170667a&w=0&k=20&c=l49zd_Rhev_XStFoLFRoaV5ZHs0-7zOmOYwtD2aYNb8=" alt="">
+        </div>
+        <div class="card">
+         <img src="https://media.istockphoto.com/id/153565353/photo/wind-turbine-under-construction.jpg?s=612x612&w=0&k=20&c=rtim3mUsFUk6HbW_E6p2NRb197oXiEg-8IE-r_Of1G0=" alt="">
+         </div>
+         <div class="card">
+         <img src="https://images.unsplash.com/photo-1680458841870-ed068330db33?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+         </div>
+         <div class="card">
+         <img src="https://images.unsplash.com/photo-1610993645506-62310119735e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHViZ3xlbnwwfHwwfHx8MA%3D%3D" alt="">
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
